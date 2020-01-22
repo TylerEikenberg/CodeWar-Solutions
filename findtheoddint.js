@@ -1,5 +1,4 @@
 function findOdd(A) {
-  // store number that appears odd number of times
   // iterate through array
   //      keep count of each element
   //          pull out number that appears an odd number of times
