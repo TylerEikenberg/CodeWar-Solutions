@@ -18,3 +18,17 @@ const getCount = str => {
   // putting ^ before the letters removes everything EXCEPT those letters
   return str.replace(/[^aeiou]/gi, '').length;
 };
+
+const getCount1 = str => {
+  const string = str.split('');
+  const strang = string.filter(char => {
+    return (
+      char !== 'a' &&
+      char !== 'e' &&
+      char !== 'i' &&
+      char !== 'o' &&
+      char !== 'u'
+    );
+  });
+  return string.length - strang.length;
+};

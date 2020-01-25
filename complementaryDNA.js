@@ -26,3 +26,7 @@ function DNAStrand(dna) {
 }
 
 DNAStrand('ATTGC');
+
+function DNAStrand(dna) {
+  const dnaObj = { A: 'T', T: 'A' };
+}
