@@ -1,0 +1,12 @@
+{
+  "name": "codewars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "numberOfPeopleInTheBus.js",
+  "scripts": {
+    "start": "node numberOfPeopleInTheBus.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
